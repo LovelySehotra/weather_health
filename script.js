@@ -132,8 +132,8 @@ const getdelhi = (city) => {
 }
 submit.addEventListener("click", (e) => {
     e.preventDefault()
-    getdelhi (city.value)
+    getdelhi(city.value)
 
 })
 
-getchandigarh ("delhi");
+getdelhi("delhi");
